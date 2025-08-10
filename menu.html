@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jessie Reyes event page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <div class="container">
+        <nav>
+          <a href="index.html" class="logo">Jessie <span>Reyes</span></a>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" data-section="home" class="nav-link"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="events.html" data-section="events" class="nav-link"
+                >Events </a
+              >
+            </li>
+            <li>
+              <a href="menu.html" data-section="menu" class="nav-link active">Menu </a>
+            </li>
+            <li>
+              <a href="location.html" data-section="location" class="nav-link"
+                >Location </a
+              >
+            </li>
+            <li>
+              <a href="contactus.html" data-section="contact" class="nav-link"
+                >Contact Us </a
+              >
+            </li>
+          </ul>
+          <div class="mobile-menu">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Menu Page -->
+    <section class="hero active-section" id="menu">
+      <h2 class="section-title">Official Merchandise</h2>
+
+      <div class="menu-categories">
+        <h3>
+          <i class="fas fa-star" aria-hidden="true"></i> Limited Edition Summer
+          Collection - 20% OFF with code: EYEZ23
+          <i class="fas fa-star" aria-hidden="true"></i>
+        </h3>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="filter-container">
+        <input type="radio" name="filter" id="filter-all" class="category-input" checked hidden />
+        <label for="filter-all" class="category-label">All Products</label>
+        <input type="radio" name="filter" id="filter-apparel" class="category-input" hidden />
+        <label for="filter-apparel" class="category-label">Apparel</label>
+        <input type="radio" name="filter" id="filter-accessories" class="category-input" hidden />
+        <label for="filter-accessories" class="category-label">Accessories</label>
+        <input type="radio" name="filter" id="filter-featured" class="category-input" hidden />
+        <label for="filter-featured" class="category-label">Featured</label>
+      </div>
+
+      <div class="menu-items">
+        <!-- Hoodie -->
+        <div class="menu-item apparel featured">
+          <div class="category-tag">Featured</div>
+          <div class="menu-item-image">
+            <img
+              src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              alt="Signature Hoodie"
+            />
+          </div>
+          <div class="menu-item-content">
+            <h4>Signature Hoodie <span class="price">$64.99</span></h4>
+            <p>
+              Premium quality hoodie with Jessie Reyes logo embroidery.
+              Comfortable and stylish for everyday wear.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- T-Shirt -->
+        <div class="menu-item apparel">
+          <div class="menu-item-image">
+            <img
+              src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80"
+              alt="Classic Tee"
+            />
+          </div>
+          <div class="menu-item-content">
+            <h4>Classic Logo Tee <span class="price">$34.99</span></h4>
+            <p>
+              100% cotton t-shirt featuring the iconic Jessie Reyez logo.
+              Available in multiple colors and sizes.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Hat -->
+        <div class="menu-item accessories featured">
+          <div class="category-tag">Featured</div>
+          <div class="menu-item-image">
+            <img
+              src="https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              alt="Dad Hat"
+            />
+          </div>
+          <div class="menu-item-content">
+            <h4>Dad Hat <span class="price">$29.99</span></h4>
+            <p>
+              Structured dad hat with Jessie Reyez logo. Adjustable strap for
+              perfect fit. Perfect accessory for any outfit.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Sweatshirt -->
+        <div class="menu-item apparel">
+          <div class="menu-item-image">
+            <img
+              src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1615&q=80"
+              alt="Crewneck Sweatshirt"
+            />
+          </div>
+          <div class="menu-item-content">
+            <h4>Crewneck Sweatshirt <span class="price">$54.99</span></h4>
+            <p>
+              Heavyweight crewneck sweatshirt with embroidered logo on chest.
+              Perfect for cooler weather and casual style.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Long Sleeve -->
+        <div class="menu-item apparel">
+          <div class="menu-item-image">
+            <img
+              src="https://images.unsplash.com/photo-1588117305388-c2631a279f82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+              alt="Long Sleeve Tee"
+            />
+          </div>
+          <div class="menu-item-content">
+            <h4>Long Sleeve Tee <span class="price">$39.99</span></h4>
+            <p>
+              Comfortable long sleeve shirt with printed Jessie Reyez design.
+              Ideal for layering or wearing alone.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Beanie -->
+        <div class="menu-item accessories">
+          <div class="menu-item-image">
+            <img
+              src="https://images.unsplash.com/photo-1620231109648-302d034cb29b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              alt="Beanie"
+            />
+          </div>
+          <div class="menu-item-content">
+            <h4>Knit Beanie <span class="price">$24.99</span></h4>
+            <p>
+              Warm acrylic knit beanie with embroidered logo. Keeps you stylish
+              and warm during colder months.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Windbreaker -->
+        <div class="menu-item apparel featured">
+          <div class="category-tag">Featured</div>
+          <div class="menu-item-image">
+            <img
+              src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1636&q=80"
+              alt="Windbreaker"
+            />
+          </div>
+          <div class="menu-item-content">
+            <h4>Windbreaker Jacket <span class="price">$74.99</span></h4>
+            <p>
+              Lightweight windbreaker with Jessie Reyez branding.
+              Water-resistant and perfect for transitional weather.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Stickers -->
+        <div class="menu-item accessories">
+          <div class="menu-item-image">
+            <img
+              src="https://images.unsplash.com/photo-1584824486539-53bb4646bdbc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+              alt="Sticker Pack"
+            />
+          </div>
+          <div class="menu-item-content">
+            <h4>Sticker Pack <span class="price">$12.99</span></h4>
+            <p>
+              Set of 5 premium vinyl stickers featuring different Jessie Reyez
+              designs and logos. Water and UV resistant.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Jessie Reyes</h3>
+            <p>
+              All Jessie Reyes Concerts,<br />
+              Performances, events, merchandise, and more.
+            </p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/JessieReyez/"
+                ><i class="fab fa-facebook"><img src="images/facebook.png" alt="Facebook Logo" width="20" height="20" /></i
+              ></a>
+              <a href="https://www.instagram.com/jessiereyez/"
+                ><i class="fab fa-instagram"><img src="images/instagram.png" alt="Instagram Logo" width="20" height="20" /></i
+              ></a>
+              <a href="https://twitter.com/jessiereyez"
+                ><i class="fab fa-twitter"><img src="images/twitter.png" alt="Twitter Logo" width="20" height="20" /></a></i
+              ></a>
+              <a href="https://www.youtube.com/user/JessieReyez"><i class="fab fa-youtube"><img src="images/youtube.png" alt="YouTube Logo" width="20" height="20" /></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <a href="index.html" data-section="home" class="nav-link">Home</a>
+            <a href="events.html" data-section="events" class="nav-link"
+              >Events</a
+            >
+            <a href="menu.html" data-section="menu" class="nav-link">Menu</a>
+            <a href="location.html" data-section="location" class="nav-link"
+              >Location</a
+            >
+            <a href="contactus.html" data-section="contact" class="nav-link"
+              >Contact Us</a
+            >
+          </div>
+
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <p>
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 13421
+              24th ave south 4 Seatac, WA 98168
+            </p>
+            <p>
+              <i class="fas fa-phone" aria-hidden="true"></i> (206) 349-3679
+            </p>
+            <p>
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              justin.wold88@gmail.com
+            </p>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2025 Justin Wold. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Menu filter logic
+      document.addEventListener('DOMContentLoaded', function () {
+        const menuItems = Array.from(document.querySelectorAll('.menu-item'));
+        function filterMenu(category) {
+          menuItems.forEach(item => {
+            if (category === 'all') {
+              item.style.display = '';
+            } else if (category === 'apparel') {
+              item.style.display = item.classList.contains('apparel') ? '' : 'none';
+            } else if (category === 'accessories') {
+              item.style.display = item.classList.contains('accessories') ? '' : 'none';
+            } else if (category === 'featured') {
+              item.style.display = item.classList.contains('featured') ? '' : 'none';
+            }
+          });
+        }
+        // Listen for changes on all filter radios
+        document.querySelectorAll('input[name="filter"]').forEach(radio => {
+          radio.addEventListener('change', function () {
+            if (this.checked) {
+              if (this.id === 'filter-all') filterMenu('all');
+              else if (this.id === 'filter-apparel') filterMenu('apparel');
+              else if (this.id === 'filter-accessories') filterMenu('accessories');
+              else if (this.id === 'filter-featured') filterMenu('featured');
+            }
+          });
+        });
+        // Initial filter
+        filterMenu('all');
+      });
+    </script>
+  </body>
+</html>
